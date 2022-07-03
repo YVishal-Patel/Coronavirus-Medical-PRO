@@ -8,7 +8,7 @@ function RightSmallCard({img}) {
   <div class="">
     <p class="card-text mx-2">Some quick example text to build on the card </p>
   </div>
-  <img src={img} class="card-img-top1 mx-2" alt="not found"/>
+  <img src={img} class="card-img-top1 mx-2 mb-2 " alt="not found"/>
 </div>
       </>
   )

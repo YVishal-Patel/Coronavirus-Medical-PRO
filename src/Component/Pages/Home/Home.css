@@ -120,6 +120,7 @@ text-decoration: underline;
 /*---------------------------------- Prevention Statergy  -----------------------------------  */
 .PreventionStatergy{
 margin-top: 4rem;
+/* height: 500px !important; */
 }
 .main-prevention-cont{
     /* margin-top: -3rem; */
@@ -131,12 +132,12 @@ margin-top: 4rem;
     font-weight: 800 !important;
 }
 .addsence{
-    margin-left: -1.6rem;
+    margin-left: -0.1rem;
     margin-top: 2.9rem;
-    margin-right: 1.4rem;
+    margin-right: 0.1rem;
 }
 .small-prev-card{
-    margin-top: 2.9rem;
+    margin-top: 3rem;
 }
 .small-prev-card-data{
     margin-top: -11rem;
@@ -144,3 +145,26 @@ margin-top: 4rem;
 .small-prev-card-data1{
     margin-top: -14rem;
 }
+.prevention-add-div{
+    margin-top: 3rem;
+    margin-left: -1.5rem;
+    margin-right: 1.5rem;
+}
+
+/* -----------------------------Global Impact --------------------------------------- */
+
+.global-heading{
+    margin-top: 4rem;
+}
+.global-impact-data2{
+    margin-top: -20rem;
+}
+.global-impact-data{
+    margin-top: -17rem;
+}
+.new-global-card{
+    margin-top: 2.4rem;
+}
+/* .card-data-prevention{
+    margin-left: 1.4rem;
+} */

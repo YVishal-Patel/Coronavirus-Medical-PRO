@@ -5,6 +5,8 @@ import './Home.css'
 import TopComponent from './TopComponent'
 import QuickRead from './QuickRead/QuickRead'
 import PreventionStatergy from './PreventionStatergy'
+import GlobalImpact from './GlobalImpact'
+import VideoNews from './VideoNews'
 
 function Home() {
   return (
@@ -68,7 +70,11 @@ function Home() {
         <div className="d-flex justify-content-center">
         <img src={img} alt="not found" />
         </div>
+        <GlobalImpact />
     </div>
+  <div className="container-fluid">
+    <VideoNews />
+  </div>
   </>  
   )
 }

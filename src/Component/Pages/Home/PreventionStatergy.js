@@ -4,7 +4,6 @@ import './Home.css'
  import image from '/home/vishal/Desktop/weekend-app/src/Assets/img/sm2-7.jpg'
  import img from '/home/vishal/Desktop/weekend-app/src/Assets/img/sm-9.jpg'
  import img1 from '/home/vishal/Desktop/weekend-app/src/Assets/img/sm-8.jpg'
- import img2 from '/home/vishal/Desktop/weekend-app/src/Assets/img/sm-4.jpg'
 import QuickCard from './Cards/QuickCard'
 import PreventionCard from './Cards/PreventionCard/PreventionCard'
 
@@ -20,7 +19,7 @@ function PreventionStatergy() {
                   </div>
                   </div>
                   <div className="row">
-                      <div className="col-3 addsence ">
+                      <div className="col-3  prevention-add-div ">
                           <img src={mainImg} alt="not found" />
                       </div>
                       <div className="col-6 main-prevention-cont">
