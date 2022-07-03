@@ -1,8 +1,10 @@
 import React from 'react'
 import mainImg from '/home/vishal/Desktop/weekend-app/src/Assets/img/home-main.jpg'
+import img from '/home/vishal/Desktop/weekend-app/src/Assets/img/add2.jpg'
 import './Home.css'
 import TopComponent from './TopComponent'
 import QuickRead from './QuickRead/QuickRead'
+import PreventionStatergy from './PreventionStatergy'
 
 function Home() {
   return (
@@ -55,10 +57,17 @@ function Home() {
   </div>
 
   <div className="container">
+    
     <TopComponent />
     </div>
     <div className="container-fluid">
     <QuickRead />
+    </div>
+    <div className="container">
+        <PreventionStatergy />
+        <div className="d-flex justify-content-center">
+        <img src={img} alt="not found" />
+        </div>
     </div>
   </>  
   )

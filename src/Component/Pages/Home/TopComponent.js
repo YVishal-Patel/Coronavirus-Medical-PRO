@@ -21,7 +21,7 @@ function TopComponent() {
           <div className="main-component">
               <div className="d-flex">
                   <div className="row">
-                  <div className="col-5 large-component">
+                  <div className="col-6 large-component">
                   <MainCard img={cardMain} />
                   </div>
                   <div className="col-2">

@@ -75,3 +75,72 @@
         text-decoration-thickness: 3px;
         text-underline-offset: 2px;
         }
+
+        .demo-card{
+            width: 300px;
+        }
+        .demo-card{
+            position: relative;
+            width: 100%;
+        }
+        .image{
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        .demo-card-body{
+            position: absolute;
+            top: auto;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0,0,0,0.75);
+            color: #fff;
+        }
+        .card-text-data{
+            font-weight: 600;
+            font-size: 1.3rem;
+            text-transform: capitalize;
+            font-family: Lato !important;
+        }
+    .position{
+        /* margin-top: -4rem; */
+        position: absolute;
+        top: auto;
+        bottom: 8rem;
+    }
+    .position{
+        margin: -26px 0 0 0;
+    padding: 0px;
+    font-family: Lato !important;
+    font-size: 16px !important;
+    line-height: 1 !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    background-color: rgba(255,255,255,0);
+    color: #ffffff;
+    }
+    .card-text-data:hover{
+        text-decoration: underline;
+        text-underline-offset: 2px;
+        /* color: #45e0bc; */
+        text-decoration-color: #45e0bc;
+        text-decoration-thickness: 3px;
+    }
+
+    /*----------------------------------- Prevention Card -------------------------------------  */
+    .small-strategy{
+        margin-top: 0.3rem;
+    }
+    .sm-behaviour-strategy{
+        font-size: 0.7rem;
+        font-weight: 500;
+    color: #fff;
+    z-index: 1;
+    padding: 0.3rem;
+    background-color: #45e0bc;
+    text-transform: uppercase;
+    }
+    .card-data-prevention{
+        /* margin-top: -2rem; */
+    }
