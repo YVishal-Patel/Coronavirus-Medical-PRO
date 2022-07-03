@@ -1,0 +1,77 @@
+.card-img-top{
+    object-fit: cover;
+}
+.sm-behaviour{
+    font-weight: 500;
+    color: #45e0bc;
+    z-index: 1;
+    padding: 0.3rem;
+    background-color: #fff;
+    text-transform: uppercase;
+}
+.card-body-text{
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: black;
+}
+.small{
+    margin-top: -1.3rem;
+    
+}
+.sm-behaviour-maincard{
+    padding: 0.5rem;
+    font-weight: 500;
+    color: #45e0bc;
+    z-index: 1;
+    /* padding: 0.3rem; */
+    background-color: #fff;
+    text-transform: uppercase;
+}
+.small-main{
+    margin-top: -1.5rem;
+}
+.card-body-text-main{
+    font-weight: 800;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    color: #000;
+}
+.time , .main-card-description{
+    color: #767676;
+    font-weight: 500;
+    margin-top: -0.6rem;
+}
+.small-card{
+    background-color: #DEF3E8;
+    width: 100%;
+}
+.card-img-top1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 1rem;
+    object-fit: cover;
+}
+.card-text{
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.small-card:hover{
+    text-decoration: underline;
+    text-decoration-color: #45e0bc;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 2px;
+    }
+.card-body:hover{
+    text-decoration: underline;
+    text-decoration-color: #45e0bc;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 2px;
+    }
+    .card-body-text-main:hover{
+        text-decoration: underline;
+        text-decoration-color: #45e0bc;
+        text-decoration-thickness: 3px;
+        text-underline-offset: 2px;
+        }
