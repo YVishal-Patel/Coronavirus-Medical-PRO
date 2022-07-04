@@ -19,7 +19,7 @@ function Home() {
     </div>
     <div className="container">
      <div className="main-container">
-       <div className=" my-3">
+       <div className=" my-3 home-covid-data-analyse">
        <button className="main-btn">PREVENTION</button>
        </div>
        <div className="my-3">

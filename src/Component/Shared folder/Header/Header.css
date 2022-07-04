@@ -21,11 +21,13 @@ cursor: pointer;
     font-size: 24px !important;
     font-weight: bolder !important;
     margin-top: 0.1rem;
+    color: black !important;
 }
 .logo-datas{
     margin-top: -0.6rem;
     font-weight: 600;
     font-size: 15px;
+    color: black !important;
 
 }
 .logo-span-data{
@@ -72,4 +74,12 @@ li{
     background-color: #0db588;
 }.input-group-text{
     background-color: #0db588
+}
+.header-data-position{
+    position: fixed;
+    background-color: white;
+    z-index: 2;
+}
+.nav-datas:hover{
+    color:#0db588;
 }

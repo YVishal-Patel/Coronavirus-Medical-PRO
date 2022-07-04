@@ -12,9 +12,9 @@ function Header() {
       console.log("Button is clicked")
   }
   return (<>
-  <div className="container-fluid main-header">
+  <div className="container-fluid main-header header-data-position">
     <div className="container">
-      <div className="d-flex justify-content-between">
+      <div className="d-flex justify-content-between ">
    <div className="d-flex left-div">
      <div className="logo">
        <img src={logo} alt="not found" className='logo-img' />

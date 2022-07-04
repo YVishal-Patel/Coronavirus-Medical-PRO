@@ -65,8 +65,7 @@ function Footer() {
                       <div className="Stay-inTouch">
                       <p className='beha-heading '> Stay in touch</p>
                       <p className='beha-footer-data '>To be updated with all the latest news, offers and special announcements.</p>
-                      <input type="email" id="inputPassword5 " class="input-type" aria-describedby="passwordHelpBlock" />
-                      {/* <span className='footer-btn'> Sign in</span> */}
+                      <input type="email" id="inputPassword5 " placeholder='Email address' class="input-type" aria-describedby="passwordHelpBlock" />
                       <button className='footer-btn'>Sign in</button>
                       
 

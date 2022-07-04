@@ -88,3 +88,12 @@ color: #fff;
     text-decoration-thickness: 2px;
     text-decoration-color: #31d6aa;
 }
+::placeholder{
+    font-size: 12px;
+    margin-left: 4rem;
+    color: black;
+}
+.input-type{
+    outline: none;
+    border: none;
+}
