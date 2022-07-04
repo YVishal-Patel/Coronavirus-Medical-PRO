@@ -7,6 +7,8 @@ import QuickRead from './QuickRead/QuickRead'
 import PreventionStatergy from './PreventionStatergy'
 import GlobalImpact from './GlobalImpact'
 import VideoNews from './VideoNews'
+import LatestArticle from './LatestArticle'
+import Footer from '../../Shared folder/Footer/Footer'
 
 function Home() {
   return (
@@ -74,6 +76,8 @@ function Home() {
     </div>
   <div className="container-fluid">
     <VideoNews />
+    <LatestArticle />
+    <Footer />
   </div>
   </>  
   )

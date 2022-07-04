@@ -25,30 +25,9 @@ function GlobalImpact() {
               <div className="heading">Global Impact</div>
           </div>
           <div className="global-impact">
-          {/* <div className="row">
-                      <div className="col-3 addsence ">
-                          <PreventionCard img={image} />
-                      </div>
-                      <div className="col-6 main-prevention-cont">
-                      <QuickCard img={img} type="Prevention" />
-                      </div>
-                      <div className="col-3 small-prev-card">
-                          <img src={mainImg} alt="not found" />
-                      </div>
-                      <div className="col-6 small-prev-card-data1">
-                      
-                      <QuickCard img={image} type="Prevention" />
-                      </div>
-                      <div className="col-3 small-prev-card-data">
-                          <PreventionCard img={img1} /> 
-                      </div>
-                      <div className="col-3 small-prev-card-data1">
-                     
-                      </div>
-                  </div> */}
                   <div className="row">
                       <div className="col-3 addsence">
-                      <PreventionCard img={image} />
+                      <PreventionCard img={help} />
                       </div>
                       <div className="col-6">
                       <QuickCard img={img} type="Prevention" />
