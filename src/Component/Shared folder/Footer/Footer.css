@@ -1,8 +1,90 @@
 .footer-container{
     margin-top: 5rem;
     width: 100%;
-    height: 80vh;
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url(/home/vishal/Desktop/weekend-app/src/Assets/img/footer.jpg);
+    height: 70vh;
+    background:linear-gradient(rgba(0,0,0,0.89),rgba(0,0,0,0.6)),url(/home/vishal/Desktop/weekend-app/src/Assets/img/footer.jpg);
     background-position: center;
     background-size: cover;
+}
+.footer-header{
+    height: 80px;
+    background-color: black;
+}
+
+.footer-img-data{
+    max-width: 50px;
+}
+.logo-heading, .logo-datas{
+    color: white;
+}
+.logo-heading-footer{
+    font-size: 19px !important;
+    font-weight: bolder !important;
+    color: #fff;
+}
+.logo-heading-footer1{
+    margin-top: -0.9rem;
+    font-weight: 600;
+    font-size: 12px !important;
+    color: white;
+    font-weight: 500;
+}
+.fa-brands{
+    line-height: 100px;
+    margin: 1rem;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    background-color:#0db588 ;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.footer-final-data{
+    width: 98%;
+    margin-top: 3rem;
+}
+.beha-heading{
+    color: #999999;
+    font-family: Roboto Slab !important;
+    font-size: 19px !important;
+    line-height: 1 !important;
+    font-weight: 700 !important;
+}
+.beha-footer-data{
+    color: #999999;
+    font-family: Roboto Slab !important;
+    font-size: 16px !important;
+    line-height: 1 !important;
+    /* font-weight: 700 !important; */
+}
+.Stay-inTouch{
+  margin-left: 3rem;
+}
+.input-type{
+    width: 100%;
+    padding: 0.5rem 0;
+    background-color: lightgrey;
+}
+.footer-btn{
+/* width: 100%;
+color: #fff;
+background-color: #0db588;
+padding: 2rem; */
+background-color: #31d6aa;
+font-family: Lato !important;
+font-size: 12px !important;
+text-transform: uppercase !important;
+width: 100%;
+border: none;
+outline: none;
+margin-top: 0.4rem;
+padding: 0.5rem 0;
+color: #fff;
+
+}
+.beha-footer-data:hover{
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #31d6aa;
 }
